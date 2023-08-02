@@ -1,16 +1,12 @@
 /* eslint-disable react/jsx-key */
-import './App.css'
-import Soykot from './components/Soykot/Soykot';
+import './App.css';
 import Countries from './components/Countries/Countries';
-import Header from './components/Header/Header';
 
 
 function App() {
   return (
     <div>
-      <Header></Header>
       <Countries></Countries>
-      <Soykot></Soykot>
     </div>
   )
 }
